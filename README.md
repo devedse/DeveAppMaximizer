@@ -5,6 +5,14 @@ This tool will be automatically released using Chocolatey:
 
 https://chocolatey.org/packages/DeveAppMaximizer
 
+*Update*
+
+After some research apparently this issue can also be sovled by typing the following command in the logitech G-Keys:
+
+```
+cmd /c start chrome www.google.com
+```
+
 ## Build status
 
 | AppVeyor (Windows build) |
