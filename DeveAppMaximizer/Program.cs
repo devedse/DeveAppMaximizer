@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading;
 
 namespace DeveAppMaximizer
 {
@@ -28,8 +27,10 @@ namespace DeveAppMaximizer
 
                 Console.WriteLine($"Starting '{appToStart}' with arguments '{arguments}'...");
 
-                var psi = new ProcessStartInfo(appToStart, arguments);
-                psi.UseShellExecute = true;
+                var psi = new ProcessStartInfo(appToStart, arguments)
+                {
+                    UseShellExecute = true
+                };
 
                 Process.Start(psi);
             }
