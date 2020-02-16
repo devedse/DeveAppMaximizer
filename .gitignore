@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Ignored FileOptimizerFiles just incase
+/Scripts/FileOptimizerFull.7z.exe
+/Scripts/FileOptimizer
+/Scripts/Output

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>deveappmaximizer</id>
+    <version>1.0.0</version>
+    <title>DeveAppMaximizer (Install)</title>
+    <authors>Devedse</authors>
+    <projectUrl>https://github.com/devedse/DeveAppMaximizer</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/devedse/DeveAppMaximizer/c18e8d21f6bca700dc65182ff3b6aa96ada15dc9/Icon.png</iconUrl>
+    <licenseUrl>https://github.com/devedse/DeveAppMaximizer/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>deveappmaximizer logitech maximize application</tags>
+    <summary>Maxixmizes all applications that you start using this tool</summary>
+    <description>A tool to fix the issue with the Logitech G Keys keyboard where it is not always opening an application maximized..</description>
+    <releaseNotes>https://github.com/devedse/DeveAppMaximizer/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
