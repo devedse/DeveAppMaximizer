@@ -1,7 +1,7 @@
 # DeveAppMaximizer
 A tool to fix the issue with the Logitech G Keys keyboard where it is not always opening an application maximized.
 
-Some other advantages of my application are the use of a modern programming language (debatable I know :smile:) C#. And having fully automated builds and releases using AppVeyor and Chocolatey:
+This tool will be automatically released using Chocolatey:
 
 https://chocolatey.org/packages/DeveAppMaximizer
 
