@@ -18,7 +18,7 @@ namespace DeveAppMaximizer
 
         public static void Show(IntPtr hWnd)
         {
-            ShowWindow(hWnd, SW_MINIMIZE);
+            ShowWindow(hWnd, SW_MAXIMIZE);
         }
     }
 }

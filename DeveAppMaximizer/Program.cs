@@ -9,6 +9,8 @@ namespace DeveAppMaximizer
     {
         public static void Main(string[] args)
         {
+            //args = new string[] { "notepad" };
+
             if (args.Length == 0)
             {
                 Console.WriteLine("Error: No command specified");
@@ -27,12 +29,15 @@ namespace DeveAppMaximizer
                 Console.WriteLine($"Starting '{appToStart}' with arguments '{arguments}'...");
 
                 var psi = new ProcessStartInfo(appToStart, arguments);
+                psi.UseShellExecute = true;
 
                 var process = Process.Start(psi);
 
                 Thread.Sleep(3000);
                 Console.WriteLine($"Maximizing now...");
                 Maximizer.Show(process.MainWindowHandle);
+
+                //Thread.Sleep(10000);
             }
         }
     }
