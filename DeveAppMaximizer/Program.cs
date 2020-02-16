@@ -9,7 +9,7 @@ namespace DeveAppMaximizer
     {
         public static void Main(string[] args)
         {
-            //args = new string[] { "notepad" };
+            args = new string[] { "chrome", "www.google.nl" };
 
             if (args.Length == 0)
             {
@@ -31,13 +31,7 @@ namespace DeveAppMaximizer
                 var psi = new ProcessStartInfo(appToStart, arguments);
                 psi.UseShellExecute = true;
 
-                var process = Process.Start(psi);
-
-                Thread.Sleep(3000);
-                Console.WriteLine($"Maximizing now...");
-                Maximizer.Show(process.MainWindowHandle);
-
-                //Thread.Sleep(10000);
+                Process.Start(psi);
             }
         }
     }
